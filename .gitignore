@@ -1,0 +1,37 @@
+# Emacs 自动生成
+*.elc
+*.eln
+*.eln_old
+
+# straight 包的源码和编译产物
+straight/repos/
+straight/build/
+
+# eln 缓存
+eln-cache/
+
+# 本地配置（自动保存、备份、自定义）
+data/
+custom.el
+custom.elc
+
+# emojis（下载的不需要跟踪）
+emojis/
+
+# 锁文件
+.#*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Emacs 自动生成的记录文件
+eshell/
+projectile-bookmarks.eld
+projects
+recentf
+bookmarks
+
+# 自动生成的备份文件
+*~
+straight/build-cache.el
